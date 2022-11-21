@@ -1,1 +1,54 @@
 /* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+}
+
+p {
+    font-size: 22px;
+}
+
+nav {
+    text-align: center;
+}
+
+ul {
+    background-color: lightcoral;
+    font-size:large;
+}
+
+h2 {
+    color:darkblue;
+    background-color:yellowgreen;
+}
+
+.introduction {
+    background-color:skyblue;
+    font-size:x-large;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 20px;
+    border: 4px solid purple;
+}
+
+#places {
+    color:indigo;
+    background-color:cornsilk;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 28px;
+
+}
+
+#mainHeading {
+    color: red;
+    font-size: 44px;
+}
+
+.funParagraph {
+    color: green;
+}
+
+#testP {
+    color: green;
+    font-size: 28px;
+}
