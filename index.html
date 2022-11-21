@@ -4,18 +4,27 @@
       <title>
          Tour to INDIA
       </title>
+      <link rel="stylesheet" type="text/css" href="styles.css">
    </head>
    <body>
       <!-- Write your HTML in this file! -->
       <main>
          <header>
-         <h1><marquee>Facts about India</marquee></h1>
+         <h1 id="mainHeading"><marquee>Facts about India</marquee></h1>
+         <div class="introduction">
          <p>India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area, the second-most populous country, and the most populous democracy in the world.</p>
-         <p><a href = "#C1">States</a></p>
-         <p><a href = "#C2">Languages</a></p>
-         <p><a href = "#C3">Currency</a></p>
-         <p><a href = "#C4">Tourist places</a></p>
-         <p><a href = "#C5">National Festivals</a></p>
+         <nav>
+         <a href = "#C1">States</a>
+         <a href = "#C2">Languages</a>
+         <a href = "#C3">Currency</a>
+         <a href = "#C4">Tourist places</a>
+         <a href = "#C5">National Festivals</a>
+         </nav>
+         </div>
+         <audio controls>
+            <source src="images\airtel_flute_music.mp3" type="audio/mpeg">
+         Your browser does not support the audio element!
+         </audio>
          </header>
          <article>
             <h2 id = "C1">States</h2>
@@ -23,16 +32,16 @@
          </article>
          <article>
             <h2 id = "C2">Languages</h2>
-            <p>The Indian constitution recognizes 22 official languages: Bengali, Hindi, Maithili, Nepalese, Sanskrit, Tamil, Urdu, Assamese, Dogri, Kannada, Gujarati, Bodo, Manipur (also known as Meitei), Oriya, Marathi, Santali, Telugu, Punjabi, Sindhi, Malayalam, Konkani and Kashmiri.</p>
+            <p class="funParagraph">The Indian constitution recognizes 22 official languages: Bengali, Hindi, Maithili, Nepalese, Sanskrit, Tamil, Urdu, Assamese, Dogri, Kannada, Gujarati, Bodo, Manipur (also known as Meitei), Oriya, Marathi, Santali, Telugu, Punjabi, Sindhi, Malayalam, Konkani and Kashmiri.</p>
          </article>
          <article>
             <h2 id  = "C3">Currency</h2>
             <p>The Indian rupee (INR) is the official currency of the Republic of India and is issued by the Reserve Bank of India. The rupee is subdivided into 100 paise.</p>
-            <p>1&cent = 0.8152 INR</p>
+            <p id="testP">1&cent = 0.8152 INR</p>
          </article>
          <article>
             <h2 id = "C4">Tourist Places</h2>
-            <ol>
+            <ol id="places">
             <li>Agra</li>
             <p>Agra is a city on the banks of the river Yamuna in the northern state of Uttar Pradesh, India.
             Taj Mahal, one of the 7 wonders of the world is located in Agra.</p>
@@ -81,7 +90,7 @@
          </article>
       </main>
       <footer>
-         <p><a href="https://en.wikipedia.org/wiki/India"><h3>Wikipedia</h3></a></p>
+         <p><a href="https://en.wikipedia.org/wiki/India"><h4>Wikipedia</h4></a></p>
       </footer>
    </body>
 </html>
